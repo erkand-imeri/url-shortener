@@ -4,7 +4,7 @@ var app=express();
 
 app.get('/',function(req,res){
 
-res.console("Testing Phase");
+res.send("Testing phase");
 
 });
 
